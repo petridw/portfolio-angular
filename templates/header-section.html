@@ -1,0 +1,21 @@
+<header class="centered-navigation" id="navigation-section" role="banner">
+  <div class="centered-navigation-wrapper">
+    <nav role="navigation">
+      <ul class="centered-navigation-menu">
+        <li class="nav-link" id="projects">
+          <a href ng-click="vm.setTab(1)" ng-class="{'active-tab':vm.isSelected(1)}">Projects</a>
+        </li>
+        <li class="nav-link" id="about">
+          <a href ng-click="vm.setTab(2)" ng-class="{'active-tab':vm.isSelected(2)}">About</a>
+        </li>
+        <li class="nav-link name">David Petri</li>
+        <li class="nav-link" id="contact">
+          <a href ng-click="vm.setTab(3)" ng-class="{'active-tab':vm.isSelected(3)}">Contact</a>
+        </li>
+        <li class="nav-link">
+          <a href ng-click="vm.setTab(4)" ng-class="{'active-tab':vm.isSelected(4)}">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
